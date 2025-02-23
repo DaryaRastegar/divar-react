@@ -3,11 +3,11 @@ import CateforyForm from 'src/components/templates/CategoryForm'
 import CategoryLists from 'src/components/templates/CategoryLists'
 
 function AdminPage() {
-  console.log("Admin Page")
+  console.log('Admin Page')
   return (
     <div>
-      <CategoryLists/>
-      <CateforyForm/>
+      <CategoryLists />
+      <CateforyForm />
     </div>
   )
 }

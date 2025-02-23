@@ -1,11 +1,7 @@
+import api from 'src/configs/api'
 
-import api from "src/configs/api";
+const addCategory = (data) => api.post('category', data)
 
-const addCategory = (data) => 
-  api.post("category", data);
+const getCategory = () => api.get('category')
 
-
-const getCategory = ()=> 
-  api.get("category")
-
-export { addCategory,getCategory };
+export { addCategory, getCategory }

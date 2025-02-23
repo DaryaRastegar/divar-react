@@ -5,8 +5,8 @@ import PostList from 'src/components/templates/PostList'
 function Dashboard() {
   return (
     <>
-      <AddPost/>
-      <PostList/>
+      <AddPost />
+      <PostList />
     </>
   )
 }

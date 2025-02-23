@@ -1,11 +1,11 @@
-import styles from "./Footer.module.css"
+import styles from './Footer.module.css'
 
 function Footer() {
   return (
     <div className={styles.footer}>
-      <p>  💟 ِDeveloped by  Darya with </p>
+      <p> 💟 ِDeveloped by Darya with </p>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

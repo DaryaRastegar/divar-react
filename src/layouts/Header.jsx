@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styles from "./Header.module.css";
+import { Link } from 'react-router-dom'
+import styles from './Header.module.css'
 
 function Header() {
   return (
@@ -12,7 +12,6 @@ function Header() {
           <img src="location.svg" />
           <p>تهران</p>
         </span>
-        
       </div>
       <div>
         <Link to="/auth">
@@ -25,7 +24,7 @@ function Header() {
         </Link>
       </div>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
